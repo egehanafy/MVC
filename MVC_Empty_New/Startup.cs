@@ -27,9 +27,9 @@ namespace MVC_Empty_New
 
             app.UseRouting();
 
-            app.UseEndpoints(x =>
+            app.UseEndpoints(endpoints =>
             {
-                x.MapDefaultControllerRoute();
+                endpoints.MapDefaultControllerRoute();
             });
 
             // https://localhost:5001/Home/Index

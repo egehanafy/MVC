@@ -1,4 +1,4 @@
-﻿
+﻿@model MVC_Empty_New.Models.Product
 
 <!DOCTYPE html>
 
@@ -8,7 +8,9 @@
     <title>Product/Details</title>
 </head>
 <body>
-    <h1>Product/Details</h1>
-
+    <h1>Ürün Detay</h1>
+        <ul>
+            <li>@Model.ID @Model.ProductName @Model.UnitPrice</li>
+    </ul>
 </body>
 </html>
